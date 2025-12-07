@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
-  Grid, Cpu, Play, RotateCcw, CheckCircle,
-  Terminal, Layers, Box, Info, X, Calculator,
+  Grid, Play, RotateCcw, CheckCircle,
+  Terminal, Layers, Info, X, Calculator,
   ArrowRight, LayoutGrid, Database, Plus, AlertTriangle
 } from 'lucide-react';
 
