@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import {
   Grid, Play, RotateCcw, CheckCircle,
   Terminal, Layers, Info, X, Calculator,
@@ -384,7 +385,13 @@ const Lecture2Page = () => {
       {/* HEADER */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-[#020617]/90 backdrop-blur-md border-b border-slate-800 z-40 flex items-center justify-between px-6 md:px-12">
         <div className="flex items-center gap-3">
-          <img src="/UNIT4L2/logo.png" alt="Logo" className="w-8 h-8 rounded-lg object-contain" />
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={32}
+            height={32}
+            className="rounded-lg object-contain"
+          />
           <div>
             <h1 className="font-bold text-white text-sm md:text-base leading-tight">2D Arrays & Matrices</h1>
             <p className="text-[10px] text-slate-500 uppercase tracking-widest">Unit 4 • Lecture 2</p>
